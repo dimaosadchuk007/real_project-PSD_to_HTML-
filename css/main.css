@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	background: url(../img/body_background_houses.png) center 0 no-repeat, url(../img/body_background.png)  repeat ;
+}
+@font-face {
+    font-family: PathwayGothicOne-Regular; /* Имя шрифта */
+    src: url(..//fonts/PathwayGothicOne-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: AvenirNextLTPro-It; /* Имя шрифта */
+    src: url(../fonts/AvenirNextLTPro-It.otf); /* Путь к файлу со шрифтом */
+   }
+ .left{
+ 	float: left;
+ }
+ .right{
+ 	float: right;
+ }
+.clear_fix{
+	content: "";
+	clear: both;
+	display: table;
+}
+#header{
+	width: 100%;
+	height: 202px;
+	background: url(../img/header_background.png) repeat-x;
+}
+
+.wrapper{
+	width: 1006px;
+	margin: 0 auto;
+	position: relative;
+}
+.background_img{ 
+    padding: 0;
+	height: 185px;
+	width: 994px;
+	background: url(../img/header_background_bads.png) 2px 0 no-repeat ;
+}
+.navigation_top{
+	list-style: none;
+	margin-top: 14px;
+	margin-right: 5px;
+}
+.navigation_top li{
+	float: left;
+}
+.navigation_top li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #cdc0a6;
+	font-size: 15px;
+	padding: 6px 14px;
+	border: 1px solid rgba(0,0,0,.001);
+}
+.navigation_top li a:hover{
+	border: 1px solid #786755;
+}
+.description{
+	font-family: PathwayGothicOne-Regular;
+	font-size: 27px;
+	margin-top: 38px;
+	text-transform: uppercase;
+	color:#d3d1c1;
+}
+.nav_bottom{
+	margin-top:40px;
+}
+.nav_bottom li a {
+	text-transform: capitalize;
+}
+.nav_bottom li a:hover{
+	border: 1px solid rgba(0,0,0,.001);
+	border-bottom:1px solid #786755;
+}
+.left_block{
+	top:-204px;
+	left:-75px;
+	position: absolute;
+	padding-left:50px;
+	width:375px;
+	height: 1274px;
+	background: url(../img/left_background.png) no-repeat;
+}
+.logotype{
+	margin:13px 0 47px 23px;
+}
+.recent_post_img{
+	margin: 0 0 23px 24px;
+	width:224px;
+	height: 21px;
+	background: url(..//img/resent_post.png) no-repeat;
+}
+.recent_post{
+	font-family: AvenirNextLTPro-It;
+	font-size: 16px;
+	font-style: normal;
+	list-style: none;
+	width:227px;
+	margin-left:24px;
+	margin-bottom: 50px;
+}
+.recent_post li a{
+	color:#9b8c81;
+	text-decoration: none;
+	font-size: 12px;
+	display: block;
+}
+.recent_post li{
+	border-bottom:1px solid #e6e3e2 ;
+	padding: 12px 0;
+}
+.recent_post li:last-child{
+	border-bottom:none;
+}
+.newsletter_img{
+	margin: 0 0 10px 24px;
+	width:224px;
+	height: 21px;
+	background: url(..//img/newsletter_img.png) no-repeat;
+}
+.subscribe{
+	width:224px;
+	white-space: nowrap;
+	font-size: 12px;
+	color:#c4c1c0;
+	text-transform: uppercase;
+	margin:0 0 22px 36px ;
+}
+.subscribe_form{
+	width:222px;
+	height: 37px;
+	box-sizing:border-box;
+	margin: 0 0 10px 24px;
+	padding:13px 0 11px 10px;
+	border:1px solid #e5e5e5;
+	background: url('..//img/background_for_form_input.png') repeat;
+	text-transform: uppercase;
+	color:#aba39c;
+}
+.subscribe_button{
+	margin-left:24px;
+}
+.about_us{
+	margin: 65px 0 0 24px;
+	width:222px;
+}
+.about_us_img{
+	width:224px;
+	height: 21px;
+	margin-bottom: 22px;
+	background: url(..//img/about_us.png) no-repeat;
+}
+.about_us_text{
+	font-family: AvenirNextLTPro-It;
+	color: #8f8780;
+	font-size: 12px;
+}
+.posts{	
+	width:702px;
+	margin-top:55px;
+}
+.post{	
+	font-family: AvenirNextLTPro-It;
+	font-size: 14px;
+	width:660px;
+	position: relative;
+}
+.post .title{
+	font-family: PathwayGothicOne-Regular;
+	font-size: 40px;
+	color:#675c53;
+	text-transform: uppercase;
+
+}
+.post .date{
+	position: absolute;
+	font-family: PathwayGothicOne-Regular;
+	top:5px;
+	left:-40px;
+	text-transform: uppercase;
+	width:20px;
+	height: 35px;
+	color:#c4c2bf;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+.date .day{
+	font-size: 25px;
+}
+.picture{
+	margin:25px 0;
+	
+}
+.read_more{
+    margin:18px 0 60px 0;
+}
+.text{
+	color: #78716b;
+}
+
+.navigation_pages{
+	width: 660px;
+	height: 52px;
+	background-color: #e9e9e9;
+	float: right;
+	margin-bottom: 262px;
+	border:1px solid #d9d9d9;
+}
+.corners a{
+	text-decoration: none;
+	line-height: 52px;
+	margin-left: 18px;
+	color:#cbc6c1;
+	font-size: 28px;
+}
+.corners .right_corner{
+	color:#a89e94;
+}
+.navigation_pages .pages{
+	list-style: none;
+	margin-top:-53px;
+	margin-right: 20px;
+	float:right;
+
+}
+.navigation_pages .pages li {
+	float:left;
+	line-height: 52px;
+}
+.navigation_pages .pages li a{
+	text-decoration: none;
+	color:#adaaa4;
+	border: 1px solid #e9e9e9;
+	padding:5px 8px;
+}
+.navigation_pages .pages li a:hover{
+	border: 1px solid #c7c7c6;
+}
